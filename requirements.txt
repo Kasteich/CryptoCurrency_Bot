@@ -1,0 +1,6 @@
+aiogram==3.18
+peewee==3.14.10
+python-dotenv==0.19.2
+requests==2.26.0
+aiohttp~=3.11.13
+dotenv~=0.9.9

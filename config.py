@@ -16,7 +16,7 @@ DB_NAME = os.getenv('DB_NAME')
 
 # URL для API
 CRYPTO_API_URL = 'https://api.coingecko.com/api/v3/'
-FIAT_API_URL = f'https://open.er-api.com/v6/latest?apikey={FIAT_API_KEY}'
+FIAT_API_URL = f'https://openexchangerates.org/api/latest.json?app_id={FIAT_API_KEY}'
 
 # Проверка загрузки
 if not all([TOKEN, CRYPTO_API_KEY, FIAT_API_KEY, DB_NAME]):
